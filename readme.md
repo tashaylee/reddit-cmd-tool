@@ -4,7 +4,7 @@ Reddit-Cmd-Tool is a simple command line tool that displays a Reddit post's titl
 ## Getting Started
 To run this, you will need to have python 3 installed. All libraries used in this program is built into the python 3.0 standard library. 
 
-Simply run the below Main.py file and a library of reddit-api-specific commands will appear for you to choose from.
+Simply run the Main.py file and enter what information you'd like to view on the command line.
 ```
-python3 Main.py -h
+python3 Main.py
 ```
