@@ -17,6 +17,7 @@ class Past75(NewPost):
     def update_url(self):
         self.set_url(self.get_url() + '?count=75&after=' + self._get_last_child())
 
+
 if __name__ == '__main__':
     past_75 = Past75('https://www.reddit.com/r/oddlysatisfying/top.json')
     past_75.extract()

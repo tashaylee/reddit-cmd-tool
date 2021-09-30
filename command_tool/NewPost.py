@@ -19,6 +19,7 @@ class NewPost(_RedditPost):
     def update_url(self):
         self.set_url(self.get_url() + '?limit=25&before=' + self._get_recent_child())
 
+        
 if __name__ == '__main__':
     new_post = NewPost('https://www.reddit.com/r/oddlysatisfying/new.json')
     new_post.extract()

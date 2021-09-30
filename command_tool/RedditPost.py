@@ -57,7 +57,6 @@ class _RedditPost:
             print("Author:\t" + self._get_author(listing, post))
             print("URL:\t" + self._get_permalink(listing, post)+ '\n')
 
-
     """ 
     Setter for the reddit api url.
 
